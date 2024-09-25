@@ -20,21 +20,21 @@ Make sure you have the following software installed on your machine:
 bash
 git clone https://github.com/your-username/city-map.git
 cd city-map
-```
+
 
 2. Install dependencies:
 
-```bash
+
 npm install
 npm install ajv@latest ajv-keywords@latest
 npm install leaflet react-leaflet axios
-```
+
 
 3. Start the development server:
 
-```bash
+
 npm start
-```
+
 
 The app should now be running on `http://localhost:3000`.
 
