@@ -1,6 +1,64 @@
-# Getting Started with Create React App
+# City Map Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a simple city map application built using React and Leaflet. It displays a map and allows users to interact with it.
+
+## Getting Started
+
+These instructions will help you set up and run the project locally.
+
+### Prerequisites
+
+Make sure you have the following software installed on your machine:
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+### Installation
+
+1. Clone the repository:
+
+bash
+git clone https://github.com/your-username/city-map.git
+cd city-map
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+npm install ajv@latest ajv-keywords@latest
+npm install leaflet react-leaflet axios
+```
+
+3. Start the development server:
+
+```bash
+npm start
+```
+
+The app should now be running on `http://localhost:3000`.
+
+### Project Structure
+
+- `src/`: Contains all the React components and application logic.
+- `public/`: Static assets and the `index.html` file.
+- `package.json`: Manages dependencies and scripts for the project.
+
+### Dependencies
+
+- **React**: A JavaScript library for building user interfaces.
+- **Leaflet**: A powerful, lightweight library for interactive maps.
+- **react-leaflet**: React components for Leaflet.
+- **axios**: A promise-based HTTP client for making API requests.
+- **ajv**: A JSON schema validator.
+- **ajv-keywords**: Additional custom JSON schema keywords.
+
+### Features
+
+- Interactive map with zoom and panning.
+- Ability to add markers and display locations.
+- API integration for fetching and displaying data on the map (via axios).
+
 
 ## Available Scripts
 
