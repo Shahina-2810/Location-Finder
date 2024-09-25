@@ -17,7 +17,7 @@ Make sure you have the following software installed on your machine:
 
 1. Clone the repository:
 
-bash
+```
 git clone https://github.com/your-username/city-map.git
 cd city-map
 ```
@@ -25,7 +25,7 @@ cd city-map
 
 2. Install dependencies:
 
-
+```
 npm install
 npm install ajv@latest ajv-keywords@latest
 npm install leaflet react-leaflet axios
@@ -33,7 +33,7 @@ npm install leaflet react-leaflet axios
 
 3. Start the development server:
 
-
+```
 npm start
 ```
 
